@@ -1,0 +1,130 @@
+.home-container {
+  text-align: center;
+  color: #fff;
+  padding: 0px;
+  background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHJhdmVsfGVufDB8fDB8fHww'); /* Adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+input[type="text" ] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin: 20px auto;
+  display: block;
+  color: #130f0f;
+}
+
+.destination-list {
+  margin-top: 10px;
+}
+
+.destination-button {
+  margin: 5px;
+  padding: 8px 14px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.details-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  padding: 20px;
+  margin-top: 30px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.type-selector {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.type-selector button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.type-selector button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.header-title {
+  color: #040506; 
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.header-subtitle {
+  color: #070606; /* Subtle gray tone */
+  font-size: 1.2rem;
+}
+
+.footer {
+  /* padding: 40px 20px; */
+  background: rgba(0, 0, 0, 0.6); /* Transparent dark background */
+  color: #fff;
+  text-align: center;
+  margin-top: 130px;
+  border: 5px solid black;
+  padding: 1% ;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+  
+}
+.footer img{
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  gap: 15px;
+ 
+
+}
+
+.services-section, .contact-section {
+  margin-bottom: 30px;
+}
+
+.services-section h2, .contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.services-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-section li,
+.contact-section p {
+  font-size: 18px;
+  margin: 6px 0;
+  color: #f1f1f1;
+}
+
+.description-box {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  font-size: 16px;
+  line-height: 1.6;
+}
